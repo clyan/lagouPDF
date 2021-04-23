@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "login": "node inspect ./src/bak.js"
+  },
+  "dependencies": {
+    "generic-pool": "^3.7.8",
+    "images": "^3.2.3",
+    "puppeteer": "^8.0.0",
+    "resemblejs": "^3.2.5",
+    "tesseract.js": "^2.1.4"
+  }
+}
